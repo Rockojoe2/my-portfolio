@@ -1,4 +1,5 @@
 
+
 header{
     text-align: center;
     /* background-image: url("../images/image-2.jpg");  */
@@ -21,6 +22,7 @@ li{
     font-size: 20px;    
 }
 
+/* p2 element has a specific margin left that is needed */
 p2{
 
     display: flex;
@@ -29,25 +31,30 @@ p2{
 
 }
 
+/* p3 element has a specific margin left that is needed */
 p3{
     margin-left: 95px;
 }
 
+/* p4 element has a specific margin left that is needed */
 p4{
-    display:flex;
+    /* display:flex;
     justify-content: space-between;
-    text-decoration: solid;
-    /* margin-left: 65px; */
+    text-decoration: solid; */
+    margin-left: -30px; 
+    
 }
 
 p5{
     margin-left: 65px;
 }
 
+/* changes the background color of the website */
 .background-color{
     background-color: lightgray;
 }
 
+/* Changes the banner underneath the heading */
 .banner{
     background-image: url("../images/image-1.png");
     background-repeat: no-repeat;
@@ -56,11 +63,13 @@ p5{
     margin-bottom: 50px;
 }
 
+/* Container is made in order to have the headings and p's appear on same line */
 .container{
     display: flex;
     align-items: center;
 }
 
+/* Needed to have the header fixed at the top whenever you scroll */
 .fixed-header{
     position: fixed;
     top: 0;
@@ -68,8 +77,15 @@ p5{
     width: 100%
 }
 
+.vertical-line {
+    border-left: 3px solid #000;
+    height: 100px; 
+    margin-left: 15px;
+
+  }
 
 
+/* About me id that changes font */
 #about-me{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
@@ -84,7 +100,6 @@ p5{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-
 
 
 #work{
