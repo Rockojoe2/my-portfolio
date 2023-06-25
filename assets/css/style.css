@@ -1,11 +1,11 @@
 
 header{
-    text-align: left;
+    text-align: center;
     /* background-image: url("../images/image-2.jpg");  */
     background-color: seagreen;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100px;
+    height: 120px;
 }
 
 /* The ul and li code below make the navigation tabs at the top align right, and then the display is inline so they can be next to each other. */
@@ -34,7 +34,10 @@ p3{
 }
 
 p4{
-    margin-left: 65px;
+    display:flex;
+    justify-content: space-between;
+    text-decoration: solid;
+    /* margin-left: 65px; */
 }
 
 p5{
@@ -56,6 +59,13 @@ p5{
 .container{
     display: flex;
     align-items: center;
+}
+
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
 }
 
 
