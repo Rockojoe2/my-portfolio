@@ -56,6 +56,8 @@ p5{
 
 /* Changes the banner underneath the heading */
 .banner{
+    display: flex;
+    flex: 1;
     background-image: url("../images/image-1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,6 +78,7 @@ p5{
     left: 0;
     width: 100%
 }
+
 
 .vertical-line {
     border-left: 3px solid #000;
@@ -105,4 +108,23 @@ p5{
 #work{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+
+/* Changes banner, header background color and background color when width hits 992px */
+@media screen and (max-width: 992px)
+{
+    header{
+        background-color: antiquewhite;
+    }
+
+    .background-color{
+        background-color: azure;
+    }
+
+    .banner{
+        display: flex;
+        flex: 1;
+        background-image: url("../images/one-piece.jpg");
+    }
+    
 }
