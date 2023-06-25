@@ -49,6 +49,12 @@ p5{
     margin-left: 65px;
 }
 
+/* Makes it so when you hover over the pictures, the pictures opacity lowers a bit */
+picture:hover{
+
+    opacity: .7;
+}
+
 /* changes the background color of the website */
 .background-color{
     background-color: lightgray;
@@ -85,7 +91,7 @@ p5{
     height: 100px; 
     margin-left: 15px;
 
-  }
+}
 
 
 /* About me id that changes font */
