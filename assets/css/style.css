@@ -2,13 +2,13 @@
 header{
     text-align: left;
     /* background-image: url("../images/image-2.jpg");  */
-    /* background-color: lightblue; */
+    background-color: seagreen;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 100px; */
+    height: 100px;
 }
 
-
+/* The ul and li code below make the navigation tabs at the top align right, and then the display is inline so they can be next to each other. */
 ul{
     list-style-type: none;
     text-align: right;
@@ -17,11 +17,28 @@ ul{
 
 li{
     display: inline;
-    margin-left: 25px;    
+    margin-left: 25px;
+    font-size: 20px;    
 }
 
 p2{
-    margin-left: 45px;
+
+    display: flex;
+    flex: 1;
+    margin-left: 40px;
+
+}
+
+p3{
+    margin-left: 95px;
+}
+
+p4{
+    margin-left: 65px;
+}
+
+p5{
+    margin-left: 65px;
 }
 
 .background-color{
@@ -33,6 +50,7 @@ p2{
     background-repeat: no-repeat;
     background-size: cover;
     height:400px;
+    margin-bottom: 50px;
 }
 
 .container{
@@ -43,19 +61,23 @@ p2{
 
 
 #about-me{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
-#contact{
+#contact-me{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 #resume{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 
 
 #work{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
