@@ -10,6 +10,7 @@ header{
 }
 
 
+/* h2 element to make the h2's end at the same place */
 h2{
     text-align: right;
     width: 20%;
@@ -31,6 +32,7 @@ li{
     font-size: 20px;    
 }
 
+/* Changed all widths of the p's tbe equal */
 p2, p3, p4, p5{
     width: 75%;
 }
@@ -89,6 +91,7 @@ picture:hover{
 
 }
 
+/* Contact list ID for the spacing of contact-me */
 #contactList{
     text-align: left;
     margin-block-start: 0;
