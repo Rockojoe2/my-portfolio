@@ -17,6 +17,8 @@ The "Contact Me" section has my phone number, e-mail, and link to my GitHub. If 
 
 The Resume when clicked should download my resume in a word doc to your PC.
 
+Also, when you change the size of the webpage, the header color, background color, and banner image changes.
+
 ## Installation
 
 N/A
